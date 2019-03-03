@@ -257,3 +257,13 @@ PharoTopic new
        goal: 'Working with scientific models requires interactive tools, both for authoring new models and exploring existing ones. The Pharo live object environment is an excellent basis for developing a suitable interactive workbench. Many individual steps can contribute to such a development: implementing well-known examples from various scientific domains (e.g. Newton''s equations for celestial mechanics or the Lotka-Volterra equations for population dynamics), extensions to Pharo development tools (inspector, debugger, browser, ...) for handling models formulated in Leibniz, etc.';
        level: 'Intermediate';
        yourself.
+
+PharoTopic new
+	title: 'Fossil';
+	contact: 'thierry.goubier@gmail.com';
+	supervisors: 'Thierry Goubier';
+	keywords: 'dvcs fossil';
+	context: 'Fossil (https://fossil-scm.org) provides an alternative distributed version control system, with a fairly convincing, single executable approach';
+	goal: 'The goal is to integrate Pharo with Fossil, so that Fossil can be used as a repository support. It is also to explore a file-less integration of a dvcs with Pharo, avoiding having to cope with an not up-to-date set of files outside of the Pharo image.';
+	level: 'Beginner or Intermediate';
+	yourself.
